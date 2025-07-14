@@ -10,6 +10,7 @@ def count(lst):
     return j
 
 
+
 if __name__ == "__main__":
     assert count([1, 2, 3, 4, 5, 4, 6]) == 2, "Test case failed"
     assert count([1, 2, 3, 5, 6]) == 0, "Test case failed"
