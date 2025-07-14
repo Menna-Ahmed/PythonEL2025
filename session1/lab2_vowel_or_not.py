@@ -3,6 +3,13 @@
 
 def vowel(letter):
     """Write your solution here. Don't forget to return the result at the end."""
+    flag = False
+    lst = ['i','u','o','e','a']
+    for i in lst :
+        if(i==letter or i.upper() == letter):
+            flag = True
+            break
+    return flag
 
 
 if __name__ == "__main__":
